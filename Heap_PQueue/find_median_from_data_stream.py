@@ -15,6 +15,7 @@
 # get small heap max o(1) get max heap min o(1) add them together and divide by 2 to get the median.
 # ex: small heap = [1,2] large heap = [3,4], o(1) operation to get the values we need. Only works if size is approx equal
 # with odd numbers, we want to take the value of the heap with the odd value.
+import heapq
 
 class MedianFinder:
 
